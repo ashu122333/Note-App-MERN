@@ -1,12 +1,15 @@
 import express from "express";
 import routeNotes from "./route/routeNotes.js"
 import { connectDB } from "./config/db.js";
+import rateLimiter from "./middleware/rateLimiter.js";
 
 
 const app=express();
 const port=process.env.PORT || 5001
 
-app.use(express.json())
+
+app.use(express.json()) // Helps you convert to json
+app.use(rateLimiter)
 
 app.get("/", (req, res) => {
   res.send("🚀 Notes API is running! Try /api/notes");
@@ -14,6 +17,12 @@ app.get("/", (req, res) => {
 
 app.use("/api/notes",routeNotes)
 
+
+// custom middle ware
+// app.use((req,res,next)=>{
+//     console.log(`Request method ${req.method} and URL is ${req.url}`)
+//     next()
+// })
 
 
 connectDB().then(()=>{
