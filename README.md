@@ -30,3 +30,79 @@ A fully functional backend that communicates with MongoDB to manage notes seamle
 - Plan for future improvements like authentication and deployment.  
 
 ---
+
+# 📝 Notes App – Day 2 Progress
+
+## 🌟 Context (Hook)
+I’m building a simple **note-taking application** with a full-stack setup. The goal is to create a clean, scalable project where users can create, update, and delete notes, while also learning and experimenting with new tools and best practices.
+
+---
+
+## 🚀 What I Built Today (Day 2)
+- ✅ Completed **80% of the Backend** (CRUD functionality with MongoDB + Mongoose).  
+- ✅ Added **rate limiting middleware** using **Upstash Redis** for security and request control.  
+- ✅ Finalized backend integration:  
+  - **Schema** for notes.  
+  - **Routes** for CRUD operations.  
+  - **Controllers** for business logic.  
+  - Connected everything into a fully working backend.  
+
+- ✅ Started **Frontend Setup**:  
+  - Configured **Tailwind CSS** for styling.  
+  - Added **DaisyUI** for prebuilt UI components.  
+  - Integrated **React Hot Toast** for user-friendly popups and notifications.  
+
+Result:  
+A **fully functional backend** + **frontend environment configured** and ready to build UI features. 🎉  
+
+---
+
+## 📚 What I Learned / Challenges
+- Middleware concepts and how **Upstash Redis** can be used for scalable **rate limiting**.  
+- Practiced modular backend structure: splitting into **routes, controllers, schema**.  
+- Learned how to configure and integrate frontend libraries for faster development and better UI/UX.  
+
+---
+
+## 🔜 Next Up
+- Build **frontend pages** for the app.  
+- Connect the frontend with the backend and database to enable real note-taking from the UI.  
+- Plan authentication & deployment later.  
+
+---
+
+## ⚡ Tech Stack So Far
+**Backend:** Node.js, Express.js, MongoDB, Mongoose, Upstash Redis  
+**Frontend:** React.js, Tailwind CSS, DaisyUI, React Hot Toast  
+
+---
+
+## 🚀 Day 3 – Connecting Frontend to Backend
+- ✅ Created **Homepage** and **Create Page** using React.  
+- ✅ Integrated **Axios** to communicate with the backend.  
+- ✅ Connected frontend to backend and database:  
+  - Can now **view all notes** on the frontend.  
+  - Can **add new notes** to the database from the UI.  
+
+Result:  
+The app is now interactive — I can create notes from the frontend and see them saved in MongoDB. 🥳  
+
+---
+
+## 📚 What I Learned / Challenges
+- Importance of **clean project structure** with routes, controllers, and schema separation.  
+- Using **Axios** to integrate React frontend with backend APIs.  
+
+---
+
+## 🔜 Next Up
+- Add **Delete Functionality** for notes.  
+- Add **Edit/Update Functionality** for notes.  
+
+---
+
+## ⚡ Tech Stack So Far
+**Backend:** Node.js, Express.js, MongoDB, Mongoose, Upstash Redis  
+**Frontend:** React.js, Axios, Tailwind CSS, DaisyUI, React Hot Toast  
+
+---

@@ -1,13 +1,16 @@
+import cors from "cors"
 import express from "express";
+
 import routeNotes from "./route/routeNotes.js"
 import { connectDB } from "./config/db.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
-
 const app=express();
 const port=process.env.PORT || 5001
 
-
+app.use(cors({
+  origin:"http://localhost:5173"
+}))
 app.use(express.json()) // Helps you convert to json
 app.use(rateLimiter)
 
