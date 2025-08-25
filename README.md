@@ -105,4 +105,34 @@ The app is now interactive — I can create notes from the frontend and see them
 **Backend:** Node.js, Express.js, MongoDB, Mongoose, Upstash Redis  
 **Frontend:** React.js, Axios, Tailwind CSS, DaisyUI, React Hot Toast  
 
+
 ---
+
+## 🚀 Day 4 – Full CRUD Complete
+- ✅ Added **Edit Functionality** for notes.  
+- ✅ Added **Delete Functionality** for notes.  
+- ✅ Now the app supports **full CRUD (Create, Read, Update, Delete)** operations.  
+- ✅ Completed **frontend + backend + database integration**.  
+
+Result:  
+The **Notes App is now fully functional end-to-end** with a polished frontend, a working backend, and MongoDB database integration. 🎊  
+
+---
+
+## 📚 What I Learned / Challenges
+- Building a **full CRUD flow** across frontend, backend, and database.  
+- Handling **state updates in React** while editing and deleting notes.  
+- Strengthened understanding of **end-to-end integration** in a MERN app.  
+
+---
+
+## 🔜 Next Up
+- 🚀 Deploy the app on **Render** so others can try it out.  
+- Plan to add future improvements like **authentication** and **better UI/UX**.  
+
+---
+
+## ⚡ Tech Stack So Far
+**Backend:** Node.js, Express.js, MongoDB, Mongoose, Upstash Redis  
+**Frontend:** React.js, Axios, Tailwind CSS, DaisyUI, React Hot Toast  
+
